@@ -1,3 +1,15 @@
 .bg-light{
-    background-color: #5ee045 !important;
+    background-color: #00AB84 !important;
+}
+
+.bg-dark{
+    opacity: 0.9;
+}
+
+.bg-dark:hover{
+    opacity: 1;
+}
+
+footer{
+    background-color: #00AB84;
 }
