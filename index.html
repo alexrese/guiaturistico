@@ -36,13 +36,16 @@
                         <a class="nav-link active" aria-current="page" href="#">Santa Catarina</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Serra</a>
+                        <a class="nav-link" href="#serra">Serra</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Mar</a>
+                        <a class="nav-link" href="#mar">Mar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Vale Europeu</a>
+                        <a class="nav-link" href="#vale">Vale Europeu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#depoimentos">Depoimentos</a>
                     </li>
                 </ul>
             </div>
@@ -85,13 +88,13 @@
     <!-- Cards serra -->
     <div class="container mt-5">
         <div class="card mb-3">
-            <div class="row g-0">
+            <div class="row g-0" id="mar">
                 <div class="col-md-4">
                     <img src="img/praia.jpg" class="img-fluid rounded-start" alt="...">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Serra</h5>
+                        <h5 class="card-title">Mar</h5>
                         <p class="card-text">Serra (do termo latino serra) é o conjunto de montanhas e terrenos
                             acidentados com fortes desníveis e muitos picos, que
                             se assemelha, portanto, a uma serra (ferramenta). O termo é, frequentemente, aplicados a
@@ -103,7 +106,7 @@
             </div>
         </div>
         <div class="card mb-3">
-            <div class="row g-0">
+            <div class="row g-0" id="serra">
                 <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title">Serra</h5>
@@ -124,8 +127,8 @@
 
     <!-- card com img e texto -->
     <div class="mt-5">
-        <div class="card bg-dark text-white ">
-            <img src="img/img2.jpg" class="card-img" alt="...">
+        <div class="card bg-dark text-white" id="vale">
+            <img src="img/vale.png" class="card-img" alt="...">
             <div class="card-img-overlay">
                 <h5 class="card-title">Venha conhecer o estado mais belo do Brasil</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
@@ -137,33 +140,37 @@
     </div>
 
     <!-- Comentários -->
-    <div class="container mt-5">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card">
-                    <img src="img/depp.jfif" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Depp</h5>
-                        <p class="card-text">"Uma vez visitei floripa e apanhei da minha esposa na ponte Hercílio Luz" -
-                            Depp, Jhonny</p>
+    <div id="depoimentos">
+        <div class="container mt-5 text-center">
+            <h1>Depoimentos sobre SC</h1><br>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="img/depp.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Depp</h5>
+                            <p class="card-text">"Uma vez visitei floripa e apanhei da minha esposa na ponte Hercílio
+                                Luz" -
+                                Depp, Jhonny</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="img/cage.jfif" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Cage</h5>
-                        <p class="card-text">Praia brava, faltou só não dar pra nadar.</p>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/cage.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cage</h5>
+                            <p class="card-text">Praia brava, faltou só não dar pra nadar.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="img/diesel.jfif" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Diesel</h5>
-                        <p class="card-text">Acabei de apitar avai e corinthias, fiquei por aqui pra relaxar.</p>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/diesel.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Diesel</h5>
+                            <p class="card-text">Acabei de apitar avai e corinthias, fiquei por aqui pra relaxar.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -180,14 +187,27 @@
                         width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="col">
+                <div class="col text-center bloco-2 p-4">
                     Venha conhecer as belezas do sul do Brasil.
+                    <div>
+                        <a href="#">
+                            <i class="fa fa-arrow-circle-up"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="col">
-                    <i class="fa fa-facebook"></i>
-                    <i class="fa fa-twitter"></i>
-                    <i class="fa fa-instagram"></i>
-                    <i class="fa fa-linkedin"></i>
+                <div class="col bloco-3">
+                    <a href="https://pt-br.facebook.com/">
+                        <i class="fa fa-facebook"></i>
+                    </a><br>
+                    <a href="https://pt-br.facebook.com/">
+                        <i class="fa fa-twitter"></i>
+                    </a><br>
+                    <a href="https://pt-br.facebook.com/">
+                        <i class="fa fa-instagram"></i>
+                    </a><br>
+                    <a href="https://pt-br.facebook.com/">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
                 </div>
             </div>
         </div>
